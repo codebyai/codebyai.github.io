@@ -1,0 +1,127 @@
+body {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  background-color: rgb(246, 246, 246);
+  font-family: Helvetica, sans-serif;
+}
+
+.maximum-width {
+  max-width: 450px;
+}
+
+.nav-color {
+  background-color: rgb(134, 48, 90);
+}
+
+nav {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: left;
+}
+
+a, a:active, a:visited, a:focus {
+  text-decoration: none;
+  color: rgb(48, 130, 134);
+  font-weight: bold;
+}
+
+.green-text, a.green-text, a.green-text:active, a.green-text:visited, a.green-text:focus {
+  text-decoration: none;
+  color: rgb(80, 200, 195);
+  font-weight: bold;
+}
+
+.off-white-text, a.off-white-text, a.off-white-text:active, a.off-white-text:visited, a.off-white-text:focus {
+  text-decoration: none;
+  color: rgb(246, 246, 246);
+  font-weight: bold;
+}
+
+.purple-text, a.purple-text, a.purple-text:active, a.purple-text:visited, a.purple-text:focus {
+  text-decoration: none;
+  color: rgb(200, 172, 206);
+  font-weight: bold;
+}
+
+.dark-green-text, a.dark-green-text, a.dark-green-text:active, a.dark-green-text:visited, a.dark-green-text:focus  {
+  text-decoration: none;
+  color: rgb(48, 130, 134);
+  font-weight: bold;
+}
+
+.pink-text {
+  text-decoration: none;
+  color: rgb(234, 175, 178);
+  font-weight: bold;
+}
+
+a:hover, a.green-text:hover, a.off-white-text:hover, a.purple-text:hover, a.dark-green-text:hover {
+  text-decoration: none;
+  color: rgb(234, 175, 178);
+  font-weight: bold;
+}
+
+#about {
+}
+
+#portfolio {
+}
+
+#contact {
+}
+
+h1, h2, h3 {
+  color: rgb(140, 140, 140);
+  text-align: left;
+  font-weight: bold;
+}
+
+p {
+  color: rgb(46, 46, 46);
+  text-align: justify;
+}
+
+.resize-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.border {
+  border-color: rgb(80, 200, 195);
+  border-width: 10px;
+  border-style: solid;
+  border-radius: 10px;
+}
+
+.padding-top {
+  padding-top: 0px;
+}
+
+.padding-bottom {
+  padding-bottom: 15px;
+}
+
+.padding-side {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.footer-color {
+  background-color: rgb(48, 130, 134);
+}
+
+footer {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: rgb(234, 175, 178);
+  text-align: left;
+  font-size: 80%;
+}
+
+.nav-padding {
+  padding-left: 7.5px;
+  padding-right: 7.5px;
+}
+
