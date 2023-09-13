@@ -1,0 +1,181 @@
+body {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(222, 222, 222);
+  font-family: "Helvetica Neue", sans-serif;
+}
+
+/*Navigation*/
+
+nav {
+  padding-top: 30px;
+  padding-bottom: 35px;
+  background-color: rgb(18, 19, 155);
+  color: rgb(244, 210, 211);
+  max-width: 600px;
+}
+
+.nav-top {
+  font-size: 14pt;
+  font-weight: bold;
+}
+
+p {
+  font-size: 10pt;
+  color: white;
+}
+
+.nav-bottom {
+  font-size: 10pt;
+}
+
+.nav-padding {
+  padding-left: 7.5px;
+  padding-right: 7.5px;
+}
+
+#about {
+}
+
+#portfolio {
+}
+
+#contact {
+}
+
+a.pink-text, a.pink-text:active, a.pink-text:visited, a.pink-text:focus {
+  text-decoration: none;
+  border-bottom: 2px solid rgb(244, 210, 211);
+  color: rgb(244, 210, 211);
+}
+
+a.pink-text:hover {
+  text-decoration: none;
+  border-bottom: 2px solid white;
+  color: white;
+}
+
+/*Footer*/
+
+.fas, .fab {
+  color: black;
+}
+
+.fas:hover, .fas:active, .fas:visited, .fas:focus {
+  text-decoration: none;
+  color: rgb(18, 19, 155);
+}
+
+.fab:hover, .fab:active, .fab:visited, .fab:focus {
+  text-decoration: none;
+  color: rgb(18, 19, 155);
+}
+
+footer {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: rgb(237, 237, 237);
+  color: black;
+}
+
+.footer-padding {
+  padding-top: 30px;
+}
+
+.footer-top {
+  font-size: 12pt;
+}
+
+.footer-bottom {
+  font-size: 8pt;
+}
+
+.icon-padding {
+  padding-left: 7.5px;
+  padding-right: 7.5px;
+}
+
+/*Portfolio*/
+
+section {
+  background-color: rgb(206, 198, 182);
+}
+
+.section-width {
+  max-width: 600px;
+}
+
+.resize-image {
+  max-width: 100%;
+  height: auto;
+  /*image border*/
+  padding: 7.5px;
+}
+
+/*override default padding*/
+.image-padding {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+/*padding for outermost horizontal images*/
+.image-padding-2 {
+  padding-left: 7.5px;
+  padding-right: 7.5px;
+}
+
+/*padding for outermost vertical images*/
+.image-padding-3 {
+  padding-top: 7.5px;
+}
+.image-padding-4 {
+  padding-bottom: 7.5px;
+}
+
+.section-text {
+  text-align: left;
+}
+
+h2 {
+  font-size: 14pt;
+  color: rgb(18, 19, 155);
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 10pt;
+  color: black;
+}
+
+.text-margin {
+  margin-top: -5px;
+}
+
+.text-margin-2 {
+  margin-top: -10px;
+}
+
+.text-padding {
+  padding-top: 7.5px;
+}
+
+.div-color {
+  background-color: rgb(18, 19, 155);
+}
+
+.border-x {
+  padding: 7.5px;
+}
+
+.resize-image-x {
+  max-width: 100%;
+  height: auto;
+  /*image border*/
+  border-color: white;
+  border-width: 15px;
+  border-style: solid;
+}
+

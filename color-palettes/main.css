@@ -1,0 +1,213 @@
+body {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  background-color: #D0CEDE;
+  font-family: Helvetica, sans-serif;
+}
+
+#about, #portfolio, #contact {
+  background-color: rgb(240, 240, 240);
+  color: rgb(15, 15, 15);
+  padding-bottom: 20px;
+  text-align: justify;
+}
+
+.navigation {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.purple-background, button.purple-background, button.purple-background:active, button.purple-background:visited, button.purple-background:focus {
+  background-color: #2E9BC2;
+  color: rgb(240, 240, 240);
+  border: 2px solid #2E9BC2;
+  border-radius: 4px;
+  width: 80px;
+  outline: none;
+  font-weight: bold;
+}
+
+button.purple-background:hover {
+  background-color: rgb(240, 240, 240);
+  color: #2E9BC2;
+  border: 2px solid rgb(240, 240, 240);
+  font-weight: bold;
+}
+
+button, button:active, button:visited, button:focus {
+  background-color: #2E9BC2;
+  color: rgb(240, 240, 240);
+  border: 2px solid #2E9BC2;
+  border-radius: 4px;
+  width: 80px;
+  outline: none;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: rgb(240, 240, 240);
+  color: #2E9BC2;
+  border: 2px solid #2E9BC2;
+  font-weight: bold;
+}
+
+a, a:active, a:visited, a:focus {
+  text-decoration: none;
+  color: #2E9BC2;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: none;
+  color: rgb(240, 240, 240);
+  font-weight: bold;
+}
+
+::-webkit-input-placeholder { /* Chrome */
+  color: rgb(135, 135, 135);
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: rgb(135, 135, 135);
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: rgb(135, 135, 135);
+  opacity: 1;
+}
+:-moz-placeholder { /* Firefox 4 - 18 */
+  color: rgb(135, 135, 135);
+  opacity: 1;
+}
+
+input[type=text], input[type=email], textarea[name=message] {
+  border: 1px solid rgb(135, 135, 135);
+  border-radius: 4px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(15, 15, 15);
+}
+
+input[type=text]:focus, input[type=email]:focus, textarea[name=message]:focus {
+  border: 1px solid rgb(95, 95, 95);
+  border-radius: 4px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(15, 15, 15);
+  outline: none;
+  box-shadow: 0px 0px 0px 1px rgb(95, 95, 95);
+}
+
+textarea {
+  resize: none;
+}
+
+form {
+  display: inline;
+}
+
+.margin-side {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.resize-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.no-padding {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.padding-left {
+  padding-left: 1%;
+  padding-right: 0px;
+}
+
+.padding-right {
+  padding-right: 1%;
+  padding-left: 0px;
+}
+
+.padding-top {
+  padding-top: 1%;
+}
+
+.padding-bottom {
+  padding-bottom: 1%;
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+  color: #2E9BC2;
+}
+
+.padding-2t {
+  padding-top: 2%;
+}
+
+.padding-2b {
+  padding-bottom: 2%;
+}
+
+.form-padding {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.form-margin {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.message-padding {
+  padding-bottom: 100px;
+}
+
+.extra-padding {
+  padding-bottom: 10px;
+}
+
+.margin-left {
+  margin-left: 10px;
+}
+
+.margin-right {
+  margin-right: 10px;
+}
+
+.codepen-links {
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+footer {
+  background-color: rgb(175, 175, 175);
+  color: rgb(240, 240, 240);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 80%;
+}
+
+.padding-side {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.image-width {
+  max-width: 1310px;
+}
+
+.text-width {
+  max-width: 655px;
+  text-align: justify;
+}
+
+.link-width {
+  max-width: 162px;
+}
+
